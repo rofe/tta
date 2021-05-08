@@ -1,1 +1,1 @@
-[bla](https://tta--ghandke.hlx.page/nav)
+/tta/nav.html
