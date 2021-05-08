@@ -1,9 +1,12 @@
-(() => {
+((w) => {
   // wrap all imgs with links to original
-  document.querySelectorAll('picture').forEach((img) => {
-    const link = document.createElement('a');
-    link.href = img.src.split('?')[0];
-    img.parentElement.insertBefore(link, img);
-    link.appendChild(img);
+  w.addEventListener('DOMContentLoaded', () => {
+    w.document.querySelectorAll('picture').forEach((pic) => {
+      const link = document.createElement('a');
+      link.href = pic.querySelector('img').src.split('?')[0];
+      link.target = '_blank';
+      pic.parentElement.insertBefore(link, pic);
+      link.appendChild(pic);
+    });
   });
-})();
+})(window);
