@@ -227,3 +227,10 @@ footer {
   font-style: italic;
   text-align: center;
 }
+
+main div.epilog,
+header {
+  font-style: italic;
+  text-align: center;
+  background-color:lightgray;
+}
