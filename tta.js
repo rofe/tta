@@ -11,4 +11,4 @@
   });
 })(window);
 
-var nav = JSON.parse("https://tta--ghandke.hlx.page/table.json");
+var nav = JSON.parse('https://tta--ghandke.hlx.page/table.json');
