@@ -2,7 +2,7 @@
 :root {
     --alert-color: 234,65,19;
     --link-color: 3,95,230;
-    --background-color: 255,255,255;
+    --background-color: 0,255,255;
     --text-color: 0,0,0;
 }
 
@@ -230,6 +230,11 @@ footer {
 
 main div.epilog,
 header {
+    margin: auto;
+    width: 100%;
+    max-width: 50rem;
+    margin-bottom: 1rem;
+    padding: 0.25rem 2rem;    
   font-style: italic;
   text-align: center;
   background-color:lightgray;
