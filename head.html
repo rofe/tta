@@ -7,3 +7,23 @@
 <script src="/js/tta.js"></script> 
 <script src="/js/lightgallery.min.js" defer></script>
 <script src="/js/gallery.js" defer></script>
+<script>
+    window.gallery = {};
+    window.gallery.observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      mutation.addedNodes.forEach(node => {
+        if (node.tagName === 'DIV') {
+          node.querySelectorAll('img').forEach(($img) => {
+            if (!$img.src) return;
+            $img.setAttribute('src', `${$img.getAttribute('src').split('?')[0]}?width=264&crop=3:2&format=webply&optimize=medium`);
+          });
+        }
+      });
+    });
+  });
+  
+  window.gallery.observer.observe(document, {
+    childList: true,
+    subtree: true,
+  });
+  </script>
