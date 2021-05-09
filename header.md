@@ -1,2 +1,2 @@
 header
-/tta/nav.html
+/nav.html
