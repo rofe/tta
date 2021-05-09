@@ -1,2 +1,2 @@
 header
-/nav.html
+/nav
