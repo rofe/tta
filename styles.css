@@ -239,3 +239,16 @@ header {
   text-align: center;
   background-color:lightgray;
 }
+
+nav {
+  float: left;
+  position: fixed;
+  padding: 40px;
+}
+
+nav a:any-link {
+  display: list-item;
+  list-style: none;
+  font-weight: bold;
+  color: black;
+}

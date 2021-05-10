@@ -1,0 +1,19 @@
+{
+  "total": 3,
+  "offset": 0,
+  "limit": 3,
+  "data": [
+    {
+      "URL": "/california",
+      "Title": "California"
+    },
+    {
+      "URL": "/oregon",
+      "Title": "Oregon"
+    },
+    {
+      "URL": "/washington",
+      "Title": "Washington"
+    }
+  ]
+}
