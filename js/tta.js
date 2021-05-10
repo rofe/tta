@@ -11,7 +11,7 @@
   });
 
   // read /nav.json and draw nav
-  const resp = await fetch('/nav.json');
+  const resp = await fetch('/table.json');
   if (resp.ok) {
     const json = await resp.json();
     const data = json.data;
