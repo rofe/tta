@@ -235,7 +235,7 @@ header {
     max-width: 50rem;
     margin-bottom: 1rem;
     padding: 0.25rem 2rem;    
-  font-style: italic;
+  font-style: bold;
   text-align: center;
   background-color:lightgray;
 }
