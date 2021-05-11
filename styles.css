@@ -228,18 +228,6 @@ footer {
   text-align: center;
 }
 
-main div.epilog,
-header {
-    margin: auto;
-    width: 100%;
-    max-width: 50rem;
-    margin-bottom: 1rem;
-    padding: 0.25rem 2rem;    
-  font-style: bold;
-  text-align: center;
-  background-color:lightgray;
-}
-
 nav {
   float: left;
   display: block;
