@@ -11,6 +11,7 @@
   });
 
   // read /nav.json and draw nav
+  /*
   const resp = await fetch('/table.json');
   if (resp.ok) {
     const json = await resp.json();
@@ -26,5 +27,5 @@
       document.body.insertBefore(navWrapper, document.querySelector('main'));
     }
   }
-
+*/
 })(window);

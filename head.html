@@ -26,4 +26,21 @@
     childList: true,
     subtree: true,
   });
+
+  const resp = await fetch('/table.json');
+  if (resp.ok) {
+    const json = await resp.json();
+    const data = json.data;
+    if (data) {
+      const navWrapper = document.createElement('nav');
+      data.forEach((item) => {
+        const navLink = document.createElement('a');
+        navLink.textContent = item.Title;
+        navLink.href = item.URL;
+        navWrapper.append(navLink);
+      });
+      document.body.insertBefore(navWrapper, document.querySelector('main'));
+    }
+  }
+
   </script>

@@ -242,8 +242,14 @@ header {
 
 nav {
   float: left;
-  position: fixed;
+  display: block;
+  position: relative;
   padding: 40px;
+}
+
+nav a:hover {
+    background-color: darkorange;
+    color: black;
 }
 
 nav a:any-link {
