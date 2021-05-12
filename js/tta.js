@@ -26,5 +26,5 @@
       document.body.insertBefore(navWrapper, document.querySelector('main'));
     }
   }
-  
+
 })(window);
