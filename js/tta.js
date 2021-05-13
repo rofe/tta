@@ -11,12 +11,12 @@
   });
 
   // read /nav.json and draw nav
-  const resp = await fetch('/table.json');
+  const resp = await fetch('/nav.json');
   if (resp.ok) {
     const json = await resp.json();
     const data = json.data;
     if (data) {
-      const navWrapper = document.createElement('nav');
+      const navWrapper = document.createElement('topnav');
       data.forEach((item) => {
         const navLink = document.createElement('a');
         navLink.textContent = item.Title;
