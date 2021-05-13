@@ -2,7 +2,7 @@
 :root {
     --alert-color: 234,65,19;
     --link-color: 3,95,230;
-    --background-color: 0,255,255;
+    --background-color: 255,255,255;
     --text-color: 0,0,0;
 }
 
@@ -238,7 +238,7 @@ topnav {
   height: 60px;
   padding: 0px;
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(185, 235, 144);
 }
 
 topnav a {
@@ -246,7 +246,7 @@ topnav a {
     color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration-color: black;
     font-size: 20px;
 }
 
