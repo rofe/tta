@@ -2,6 +2,9 @@
   // wrap all imgs with links to original
   w.addEventListener('DOMContentLoaded', () => {
     w.document.querySelectorAll('picture').forEach((pic) => {
+      if (pic.closest('main div.gallery')) {
+        return;
+      }
       const link = document.createElement('a');
       link.href = pic.querySelector('img').src.split('?')[0];
       link.target = '_blank';
