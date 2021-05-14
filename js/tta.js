@@ -1,5 +1,5 @@
 (async (w) => {
-  // wrap all imgs with links to original
+  /* wrap all imgs with links to original
   w.addEventListener('DOMContentLoaded', () => {
     w.document.querySelectorAll('picture').forEach((pic) => {
       const link = document.createElement('a');
@@ -9,7 +9,7 @@
       link.appendChild(pic);
     });
   });
-
+*/
   // read /nav.json and draw nav
   const resp = await fetch('/table.json');
   if (resp.ok) {
