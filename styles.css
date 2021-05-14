@@ -235,6 +235,7 @@ topnav {
   position: absolute;
   top: 0;
   width: 100%;
+  margin: auto;
   height: 60px;
   padding: 0px;
   overflow: hidden;
@@ -243,7 +244,7 @@ topnav {
 
 topnav a {
     float: left;
-    color: black;
+    --link-color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration-color: black;
@@ -253,8 +254,7 @@ topnav a {
 topnav a:hover {
     float: left;
     background-color: darkgreen;
-    color: black;
-    text-decoration: none;
+    text-decoration: white;
 }
 
 .topnav a:any-link {
