@@ -57,7 +57,14 @@ h2 { font-size: 2.25rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.25rem; }
 h5 { font-size: 1rem; }
-h6 { font-size: .875rem; }
+h6 { 
+    font-size: .875rem;
+    text-align:center;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 0;
+    margin-bottom: 4em;
+ }
 
 p, dl, ol, ul, pre, blockquote {
     margin-top: 1em;
@@ -179,6 +186,7 @@ hr {
 main img {
     max-width: 100%;
     height: auto;
+    margin-top: 1em;
 }
 
 main .table-wrapper { 
