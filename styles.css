@@ -247,7 +247,7 @@ topnav {
   width: 100%;
   margin: auto;
   height: 60px;
-  padding: 0px 3rem;
+  padding: 0px 0pt;
   overflow: hidden;
   background-color: rgb(185, 235, 144);
 }
