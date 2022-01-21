@@ -263,7 +263,7 @@ topnav a {
 topnav a:hover {
     float: left;
     background-color: darkgreen;
-    text-decoration: white;
+    text-decoration-color: white;
 }
 
 .topnav a:any-link {
